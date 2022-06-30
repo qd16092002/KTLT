@@ -29,12 +29,12 @@ int main() {
     //# Khử đệ quy
     
 
-        if(top.j>0) L = top.old_L;
+        // if(top.j>0) L = top.old_L;
 
-        if(top.j>1){
-            s.pop();
-            continue;
-        }``
+        // if(top.j>1){
+        //     s.pop();
+        //     continue;
+        // }``
 
         if(L+1<k || top.j==0){
             x[top.i] = top.j;
